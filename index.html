@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTIPLICATION</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main"> <div>
+        <div class="header"><h1>MULTIPLICATION OF MATRICES</h1></div>
+        <div class="input">
+            <div class="first">
+            <div class="rows1">
+                    <label for="rows1">ROWS</label><br>
+                    <input type="number" id="rows1"class="input-box">
+            </div>
+            <div class="column1">
+                    <label for="column1">COLUMNS</label><br>
+                    <input type="number" id="column1" class="input-box">
+            </div>
+        </div>
+        <div class="second">
+            <div class="rows2">
+                    <label for="rows2">ROWS</label><br>
+                    <input type="number" id="rows2"class="input-box">
+            </div>
+            <div class="column2">
+                    <label for="column2">COLUMNS</label><br>
+                    <input type="number" id="column2" class="input-box">
+            </div>
+        </div>
+            <div class="button">
+                    <button type="submit" onclick="submitFunction()"class="submit-box">Submit</button>
+            </div>
+        </div>
+        </div>
+            <div class="hidden" id="hidden">
+            <div class="input-matrix" id="input-matrix" >
+                <div class="matrix-1" id="matrix-1"></div>
+                <div class="matrix-2" id="matrix-2"></div>
+            </div>
+            <div class="output-matrix" id="output-matrix"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
